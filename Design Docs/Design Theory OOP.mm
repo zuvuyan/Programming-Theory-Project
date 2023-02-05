@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.13">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Design Theory OOP" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1675592209767"><hook NAME="MapStyle" background="#2e3440">
+<node TEXT="Design Theory OOP" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1675609914539"><hook NAME="MapStyle" background="#2e3440">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/dark_nord_template.mm" followedTemplateLocation="template:/dark_nord_template.mm" followedMapLastTime="1670422484000"/>
 
 <map_styles>
@@ -77,5 +77,23 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
+<node TEXT="Pillars" POSITION="right" ID="ID_1182465601" CREATED="1675609787315" MODIFIED="1675609914538" HGAP_QUANTITY="22.25 pt" VSHIFT_QUANTITY="-33.75 pt">
+<node TEXT="Abstraction" ID="ID_1322426465" CREATED="1675609802755" MODIFIED="1675609905463" HGAP_QUANTITY="16.25 pt" VSHIFT_QUANTITY="-30 pt">
+<node TEXT="Plaque" ID="ID_1882300518" CREATED="1675609921571" MODIFIED="1675609927973"/>
+<node TEXT="Colour" ID="ID_1087829675" CREATED="1675609930067" MODIFIED="1675609934212"/>
+</node>
+<node TEXT="Inheritance" ID="ID_640952308" CREATED="1675609827922" MODIFIED="1675609908694" HGAP_QUANTITY="14.75 pt" VSHIFT_QUANTITY="-20.25 pt">
+<node TEXT="Plaque" ID="ID_366245329" CREATED="1675609975987" MODIFIED="1675609979364"/>
+<node TEXT="Colour" ID="ID_1428208474" CREATED="1675609980851" MODIFIED="1675609983988"/>
+</node>
+<node TEXT="Polymorphism" ID="ID_757234131" CREATED="1675609857731" MODIFIED="1675609911211" HGAP_QUANTITY="15.5 pt" VSHIFT_QUANTITY="-21 pt">
+<node TEXT="Plaque" ID="ID_1489002647" CREATED="1675609994724" MODIFIED="1675609999828"/>
+<node TEXT="Colour" ID="ID_496093139" CREATED="1675610002051" MODIFIED="1675610006376"/>
+</node>
+<node TEXT="Encapsulation" ID="ID_827718546" CREATED="1675609868419" MODIFIED="1675609874836">
+<node TEXT="Plaque" ID="ID_1518117994" CREATED="1675610007698" MODIFIED="1675610011301"/>
+<node TEXT="Colour" ID="ID_920242663" CREATED="1675610015682" MODIFIED="1675610019161"/>
+</node>
+</node>
 </node>
 </map>
