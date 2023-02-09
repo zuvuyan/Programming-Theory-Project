@@ -10,6 +10,7 @@ public class PillarControl : MonoBehaviour
     void Start()
     {
         gameManager = GameObject.Find("Canvas").GetComponent<GameManager>();
+        Debug.Log(" Game Manager object initialized");
     }
 
     // Update is called once per frame
@@ -18,7 +19,7 @@ public class PillarControl : MonoBehaviour
         
     }
 
-    private void OnMouseDown()
+    void OnMouseDown()
     {
         if (gameManager.isGameActive)
         {

@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void OnMouseDown()
+    public void InfoExit()
     {
         if (isGameActive && infoBoxActive)
         {
