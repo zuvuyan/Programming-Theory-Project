@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3848943567148749804}
   - component: {fileID: 3848943567148749807}
   - component: {fileID: 3848943567148749806}
+  - component: {fileID: 1726688899}
+  - component: {fileID: 1726688903}
   m_Layer: 0
   m_Name: PillarCube
   m_TagString: Untagged
@@ -97,6 +99,39 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1726688899
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848943567148749801}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 46e8959edadc48541bc0a37c12d0e0cb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1726688903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848943567148749801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b78a96c3770784ba7cc639823aab4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glassMaterial: {fileID: 2100000, guid: 42c8005bd68fd8d4f840a97e4dc2fb96, type: 2}
 --- !u!1 &5265684117429459675
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,13 +142,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2536423895744291968}
   - component: {fileID: 1596071192243778401}
+  - component: {fileID: 2071349234}
   m_Layer: 0
   m_Name: Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2536423895744291968
 Transform:
   m_ObjectHideFlags: 0
@@ -142,3 +178,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6981e686b700f14499a45fd129ab318f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pillarColor: {r: 0, g: 0, b: 0, a: 0}
+  pillarMaterial: {fileID: 2100000, guid: 0e0f0fd452962ad478d6849c4c1c3fa6, type: 2}
+  glassMaterial: {fileID: 2100000, guid: 42c8005bd68fd8d4f840a97e4dc2fb96, type: 2}
+  pillarName: 
+  pillarText: Text
+--- !u!65 &2071349234
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5265684117429459675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6242185, y: 3.6028736, z: 1.2297726}
+  m_Center: {x: 0.0058887005, y: 0.0058888197, z: -0.0054632425}

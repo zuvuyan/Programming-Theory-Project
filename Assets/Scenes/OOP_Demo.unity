@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -487,7 +487,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -108}
+  m_AnchoredPosition: {x: 0, y: -95}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &480576210
@@ -757,7 +757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &579746027
 RectTransform:
   m_ObjectHideFlags: 0
@@ -776,10 +776,10 @@ RectTransform:
   m_Father: {fileID: 1680938770}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.2969, y: 271.88727}
-  m_SizeDelta: {x: 781.6731, y: 443.0441}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.0313, y: -65}
+  m_SizeDelta: {x: 789.1418, y: 490.844}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &579746028
 MonoBehaviour:
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
+  m_Color: {r: 0.3018868, g: 0.28622285, b: 0.28622285, a: 0.7490196}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
-  m_FillCenter: 0
+  m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
@@ -1200,7 +1200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &767740871
 Transform:
   m_ObjectHideFlags: 0
@@ -1229,6 +1229,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6981e686b700f14499a45fd129ab318f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pillarColor: {r: 0, g: 0, b: 0, a: 0}
+  pillarMaterial: {fileID: 0}
+  glassMaterial: {fileID: 0}
+  pillarName: 
+  stringIndex: 0
 --- !u!65 &767740873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1259,7 +1264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &832538741
 Transform:
   m_ObjectHideFlags: 0
@@ -1288,6 +1293,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6981e686b700f14499a45fd129ab318f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pillarColor: {r: 0, g: 0, b: 0, a: 0}
+  pillarMaterial: {fileID: 0}
+  glassMaterial: {fileID: 0}
+  pillarName: 
+  stringIndex: 0
 --- !u!65 &832538743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1536,7 +1546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1146586095
 Transform:
   m_ObjectHideFlags: 0
@@ -1565,6 +1575,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6981e686b700f14499a45fd129ab318f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pillarColor: {r: 0, g: 0, b: 0, a: 0}
+  pillarMaterial: {fileID: 0}
+  glassMaterial: {fileID: 0}
+  pillarName: 
+  stringIndex: 0
 --- !u!65 &1146586097
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1893,7 +1908,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -21.234, y: -14.852001}
+  m_AnchoredPosition: {x: -21.234009, y: -14.85199}
   m_SizeDelta: {x: 42.468, y: 29.704}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508241730
@@ -2178,25 +2193,13 @@ MonoBehaviour:
   isGameActive: 1
   infoBoxActive: 1
   infoText: {fileID: 18454480}
-  titleScreen: {fileID: 1680938766}
---- !u!1 &2071349231 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5265684117429459675, guid: 7a6f49e42b6414646822fecd76023727, type: 3}
-  m_PrefabInstance: {fileID: 2780802231524690628}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &2071349234
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071349231}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.6242185, y: 3.6028736, z: 1.2297726}
-  m_Center: {x: 0.0058887005, y: 0.0058888197, z: -0.0054632425}
+  infoScreen: {fileID: 579746026}
+  fourPillars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  pillarPrefab: {fileID: 5265684117429459675, guid: 7a6f49e42b6414646822fecd76023727, type: 3}
 --- !u!1 &2113523882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,13 +2358,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1596071192243778401, guid: 7a6f49e42b6414646822fecd76023727, type: 3}
+      propertyPath: stringIndex
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2536423895744291968, guid: 7a6f49e42b6414646822fecd76023727, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2536423895744291968, guid: 7a6f49e42b6414646822fecd76023727, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.09
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 2536423895744291968, guid: 7a6f49e42b6414646822fecd76023727, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2403,10 +2410,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar
       objectReference: {fileID: 0}
-    - target: {fileID: 5265684117429459675, guid: 7a6f49e42b6414646822fecd76023727, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a6f49e42b6414646822fecd76023727, type: 3}
 --- !u!1 &8969277125471548105
@@ -2426,7 +2429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8969277125471548106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,6 +2442,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6981e686b700f14499a45fd129ab318f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pillarColor: {r: 0, g: 0, b: 0, a: 0}
+  pillarMaterial: {fileID: 0}
+  glassMaterial: {fileID: 0}
+  pillarName: 
+  stringIndex: 0
 --- !u!65 &8969277125471548107
 BoxCollider:
   m_ObjectHideFlags: 0
