@@ -1,7 +1,7 @@
 Programming Theory Project - OOP Demo
 by Zuvuyan
 
-Git repo:
+Git repo: https://github.com/zuvuyan/Programming-Theory-Project
 
 A meta demo of the four Pillars of OOP,
 using OOP coding principles and 
