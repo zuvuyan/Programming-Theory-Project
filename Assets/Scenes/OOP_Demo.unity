@@ -309,6 +309,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1548505406142427834, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 325ed216d4a35ed4cae68b0fd8840305, type: 2}
     - target: {fileID: 1548505406142427836, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
       propertyPath: m_Name
       value: PillarCube
@@ -1111,11 +1115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8b5af8be1524d40b116cb25603916d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pillarColor: {r: 0.21960786, g: 0.60784316, b: 0.74509805, a: 0}
   pillarMaterial: {fileID: 2100000, guid: b2de9bf98a9c0b34ea2dc64d920a9504, type: 2}
   glassMaterial: {fileID: 2100000, guid: 42c8005bd68fd8d4f840a97e4dc2fb96, type: 2}
-  pillarName: 
-  pillarNum: 1
 --- !u!1 &832538740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,11 +1176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad3197f1d10ebd429e9e1cb463618d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pillarColor: {r: 0.91372555, g: 0.69411767, b: 0.2784314, a: 0}
   pillarMaterial: {fileID: 2100000, guid: f099c504e3fdebd4bae970751eee487c, type: 2}
   glassMaterial: {fileID: 2100000, guid: 42c8005bd68fd8d4f840a97e4dc2fb96, type: 2}
-  pillarName: 
-  pillarNum: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,7 +1557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146586094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9, y: -0.2, z: 0}
+  m_LocalPosition: {x: 1.8, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1592,11 +1590,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cce7ed286df44a46a36dd605d7c1c46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pillarColor: {r: 0.8196079, g: 0.2509804, b: 0.38823533, a: 0}
   pillarMaterial: {fileID: 2100000, guid: 5066e20149e0439428f53568034ecd53, type: 2}
   glassMaterial: {fileID: 2100000, guid: 42c8005bd68fd8d4f840a97e4dc2fb96, type: 2}
-  pillarName: 
-  pillarNum: 0
 --- !u!1001 &1160849161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1648,9 +1643,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1548505406142427834, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5066e20149e0439428f53568034ecd53, type: 2}
     - target: {fileID: 1548505406142427836, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
       propertyPath: m_Name
       value: PillarCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548505406142427836, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
@@ -2124,9 +2127,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1548505406142427834, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2de9bf98a9c0b34ea2dc64d920a9504, type: 2}
     - target: {fileID: 1548505406142427836, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
       propertyPath: m_Name
       value: PillarCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548505406142427836, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
@@ -2186,9 +2197,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1548505406142427834, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f099c504e3fdebd4bae970751eee487c, type: 2}
     - target: {fileID: 1548505406142427836, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
       propertyPath: m_Name
       value: PillarCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548505406142427836, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e0481f5431d4146b34491e2ee428a1, type: 3}
@@ -2460,8 +2479,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d26cb123048e3f45ab21285db094286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pillarColor: {r: 0.34901962, g: 0.37254903, b: 0.6431373, a: 0}
   pillarMaterial: {fileID: 2100000, guid: 325ed216d4a35ed4cae68b0fd8840305, type: 2}
   glassMaterial: {fileID: 2100000, guid: 42c8005bd68fd8d4f840a97e4dc2fb96, type: 2}
-  pillarName: 
-  pillarNum: 0

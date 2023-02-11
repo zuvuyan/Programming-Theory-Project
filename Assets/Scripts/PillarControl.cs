@@ -5,18 +5,21 @@ using UnityEngine;
 public class PillarControl : MonoBehaviour
 {
     protected GameManager gameManager;
-    [SerializeField] protected Color pillarColor;
+   
     [SerializeField]
     protected Material pillarMaterial;
     [SerializeField]
     protected Material glassMaterial;
+
     [SerializeField]
-    protected string pillarName;
+    protected Color pillarColor { get; set; }
+    [SerializeField]
+    protected string pillarName { get; set; } //Encapulation;
     //public static string pillarText = "Test Text";   
-    protected string pillarText;
+    protected string pillarText { get; set; } //Encapulation
     [SerializeField]
-    protected int pillarNum = 0;
-   
+    protected int pillarNum { get; set; } //Encapulation
+
     // references to child cube object so we can manipulate it
     protected GameObject pillarChild;
     protected Animator m_Animator;
