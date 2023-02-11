@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public bool isGameActive = true;
     public bool infoBoxActive;
     public TextMeshProUGUI infoText;
+    public TextMeshProUGUI infoTitleText;
     public GameObject infoScreen;
     // initalise array of 4 pillars
     public GameObject[] fourPillars = new GameObject[4];
@@ -20,8 +21,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // make objects - abstracted method
-        MakePillars();
+        // make objects - abstracted method - switched to using static gameobjects, instead of prefabs, to show inheritance
+        // MakePillars();
 
     }
 
@@ -57,7 +58,7 @@ public class GameManager : MonoBehaviour
 #endif
     }
 
-    private void MakePillars()
+    private void MakePillars()   //NO LONGER NEEDED - PARENT PREFABS NOT USED
     {
         // Initialise array of pillar positions
         float pillarYPos = -0.2f;
